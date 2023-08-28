@@ -3,13 +3,12 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
 h3 {
-    margin: .4em auto .8em;
-    text-align: center;    
-    font-size: 1.8em;
-    text-transform: uppercase;
-    font-weight: 300;
-    padding-bottom: .5em;
-    border-bottom: 5px solid #000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    background: #0093E9;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 `;
 

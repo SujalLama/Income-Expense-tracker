@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
 h3 {
     font-size: 1.6rem;
-    font-weight: 400;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
     letter-spacing: 0.1px;
-    background: #0093E9;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #0093E9;
 }
 
 
@@ -31,6 +31,7 @@ export const Head = styled.th`
     padding: 0.5rem 1rem;
     font-weight: 300;
     font-size: 1rem;
+    color: #fff;
 `;
 
 export const TableRow = styled.tr``;

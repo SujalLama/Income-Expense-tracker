@@ -1,7 +1,15 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    
+h3 {
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #0093E9;
+}
+
 `;
 
 export const Button = styled.button`
@@ -30,30 +38,25 @@ border-bottom: 2px solid #000;
 export const Form = styled.form`
 display: flex;
 flex-direction: column;
-/* justify-content: center;
-align-items: center; */
 
-width: 90%;
-margin: 0 auto;
 `;
 
 export const Label = styled.label`
 display: block;
-font-weight: bold;
-padding-bottom: 1em;
+font-weight: 400;
+padding-bottom: 0.5rem;
 `;
 
 export const Input = styled.input`
 display: block;
 outline: none;
 border: none;
-font-size: 1.1em;
+font-size: 1rem;
 font-family: "Roboto", sans-serif;
-padding: .4em .8em;
+padding: 1rem 0.8rem;
 border: 1.5px solid #ddd;
-border-radius: 5px;
-margin-bottom: .5em;
-background: rgba(255, 255, 255, .7);
+border-radius: 4px;
+margin-bottom: 1rem;
 
 &:focus {
     border-color: #0273B5;
